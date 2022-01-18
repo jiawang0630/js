@@ -61,4 +61,27 @@ console.log(xx[2]);
 
 for(let i = 0; i < xx.length; i++){
     console.log(xx[i]);
-}
+};
+
+let obj = {
+    name: "++++",
+    tel: "0912345678",
+    addr: "台南市東區"
+};
+console.log(obj.tel);
+console.log(obj.addr);
+
+let y = "name";
+console.log(obj[y]);
+
+// 傳值
+let zz = 123;
+let yy = zz;
+yy = 456;
+console.log(zz);
+
+// 傳址
+let obj1 = obj;
+obj.name = "123"
+console.log(obj1);
+console.log(obj.name);
