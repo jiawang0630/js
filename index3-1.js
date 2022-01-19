@@ -1,4 +1,4 @@
-let score = 75;
+let score = 66;
 /*
 if(score >= 60){
     console.log("及格");
@@ -12,4 +12,8 @@ if(score >= 90){
     console.log("B級");
 }else if(score >= 70){
     console.log("C級");
+}else if(score >= 60){
+    console.log("D級");
+}else{
+    console.log("不及格");
 }
